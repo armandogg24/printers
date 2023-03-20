@@ -76,4 +76,56 @@ body {
     font-size: 14px;
     color: #777;
     margin-bottom: 10px;
+    }
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+.container {
+    height: auto;
+}
+.foto {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+}
+.nombre {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.centro-1 h1 {
+    font-size: 28px;
+}
+.centro-2 p {
+    font-size: 16px;
+}
+.fecha {
+    font-size: 16px;
+}
+.inferior {
+    font-size: 12px;
+}
+}
+
+/* Media queries for even smaller screens */
+@media (max-width: 480px) {
+.foto {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+.nombre {
+    font-size: 16px;
+}
+.centro-1 h1 {
+    font-size: 24px;
+}
+.centro-2 p {
+    font-size: 14px;
+}
+.fecha {
+    font-size: 14px;
+}
+.inferior {
+    font-size: 10px;
+}
 }
