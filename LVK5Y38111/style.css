@@ -81,7 +81,12 @@ body {
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
 .container {
-    height: auto;
+    height: 100vh;
+}
+.logo {
+    position: absolute;
+    left: 5px;
+    height: 60px;
 }
 .foto {
     margin-top: 30px;
@@ -112,6 +117,14 @@ body {
     margin-top: 20px;
     width: 80px;
     height: 80px;
+}
+.container {
+    height: 100vh;
+}
+.logo {
+    position: absolute;
+    left: 2px;
+    height: 40px;
 }
 .nombre {
     font-size: 16px;
